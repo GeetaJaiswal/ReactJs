@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main_div{
+  background-color: #8a2be2;
+  padding: 5% 40% 33% 35%;
+  text-align: center;
+}
+
+.center_div{
+  background-color: white;
+  /* padding: 2% 22% 100% 22%; */
+  padding-top: 1%;
+  width: 350px;
+  border-radius: 20px;
+  padding-bottom:280px;
+}
+
+.center_div h1{
+  background-color:darkkhaki;
+  text-align: center;
+  color: white;
+}
+
+.center_div input[type="text"]{
+   /* margin-right: 10px; */
+  margin-left: 0px; 
+  border:none;
+  border-bottom: 2px solid darkkhaki ;
+  outline: none;
+  font-family: 'Itim', cursive;
+  font-weight: 500;
+  font-size: medium;
+}
+
+button{
+  background-color:darkkhaki ;
+  color: white;
+  outline:none;
+  border: none;
+  cursor: pointer;
+  width: 25px;
+  height: 22px;
+  font-weight: 700;
+  font-size: larger;
+  margin-left: 10px;
+}
+
+button:hover{
+  background-color: rgb(97, 207, 97);
+}
+
+ol li{
+  /* text-align: left; */
+  display: flex;
+  display:inline-block;
+  /* justify-content: center;
+  float: right;  */
+  margin-right: 50px;
+  font-family: 'Itim', cursive;
+}
+
+span i{
+  margin-right: 15px;
+  color: red;
+  cursor: pointer;
+}
+
+/* @media (max-width: 768px){
+  .center_div{
+    width:100%;
+  }
+} */
+
+

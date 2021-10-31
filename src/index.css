@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header{
+  width: 100%;
+  height: 90px;
+  background-color: cornflowerblue;
+  margin-top: -20px;
+}
+
+.logo{
+  width: 50px;
+  height: 70px;
+  padding-left:20px;
+  padding-top: 20px;
+  float: left;
+
+}
+
+.logo-text{
+  color: yellow;
+  padding-left:20px;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 4px;
+  display: inline-block;
+  padding-top: 18px;
+} 
+
+footer{
+  text-align: center;
+  padding-top:100px;
+}
+
+.main_note {
+  padding:45px 440px 25px 490px;
+}
+
+.main_note input[type="text"]{
+  width: 400px;
+  height: 30px;
+  outline: none;
+  border: none;
+  font-family: 'Crimson Text', serif;
+  padding-left: 10px;
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+.main_note textarea{
+  width: 400px;
+  height: 110px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  font-family: 'Crimson Text', serif;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.note-form{
+  box-shadow: 2px 2px 2px 2px #aaaaaa;
+  border-radius: 6px;
+}
+
+.note_add Button {
+  padding: 6px 8px;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+  min-width: 50px;
+  min-height: 45px;
+  margin-top: -25px;
+  float: right;
+}
+
+.btn-icon{
+  color: white;
+}
+
+.note_add Button:hover{
+  background-color:rgb(81, 131, 224);
+}
+
+.note{
+  padding: 50px;
+  display: inline-block;
+  overflow-wrap: break-word;
+
+}
+
+.each_div {
+  width: 250px;
+  height: auto;
+  box-shadow: 2px 2px 2px 2px #aaaaaa;
+  padding: 8px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.each_div h3,p{
+  font-family: 'Crimson Text', serif;
+}
+
+.btn {
+    color: cornflowerblue;
+    float: right;
+    margin-top: -25px;
+    cursor: pointer;
+    border-radius: 20px;
+    border:none;
+    width:40px;
+    height:40px;
+
+}
+
+.btn:hover{
+  background-color: rgb(189, 206, 238);
+  padding:7px;
+  border-radius: 20px;
+  margin-top: -30px;
+} 
